@@ -19,12 +19,18 @@ $ npm install -g ionic cordova
 Inside the project
 
 ```bash
+cd byjc-clockTime
 $ npm install && bower install
 ```
+If you want to lauch in browser :
+```bash
+$ ionic serve
+```
+
 You can add platform to build for :
 
 ```bash
-$ cd myApp
+$ cd byjc-clockTime
 $ ionic platform add ios/android
 $ ionic build ios/android
 $ ionic emulate ios/android
